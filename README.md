@@ -113,6 +113,11 @@ Technical Support had the highest number of tickets in the dataset, indicating t
 
 Some categories such as Technical Support and Product Support contained significantly more tickets than categories like Human Resources and General Inquiry. This imbalance affected model performance across classes.
 
+
+## Live App
+
+https://futureml02-gu6fr64aoepjwqgdtqkg7x.streamlit.app/
+
 ## 👨‍💻 Author
 
 Sweta Agarwal
