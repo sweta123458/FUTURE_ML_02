@@ -6,8 +6,9 @@ This project is an NLP-based Customer Support Ticket Classification System devel
 
 The system automatically predicts:
 
-Ticket Category (Support Queue)
-Ticket Priority (High / Medium / Low)
+- Ticket Category (Support Queue)
+  
+- Ticket Priority (High / Medium / Low)
 
 The goal is to help support teams route tickets efficiently and respond faster.
 
@@ -37,7 +38,7 @@ The goal is to help support teams route tickets efficiently and respond faster.
 
 Customer IT Support Dataset
 
-Important Columns:
+**Important Columns:**
 
 |     Column	|      Description   |
 |---------------|--------------------|
@@ -52,43 +53,43 @@ Only English tickets were used for training.
 
 ## 🔄 Workflow
 
-1. Data Preprocessing
+-  Data Preprocessing
 
-- Handle missing values
-- Convert text to lowercase
-- Remove special characters
-- Remove stopwords
-- Lemmatize words
+  - Handle missing values
+  - Convert text to lowercase
+  - Remove special characters
+  - Remove stopwords
+  - Lemmatize words
 
-2. Feature Engineering
+- Feature Engineering
 
 Convert text into numerical features using TF-IDF Vectorization.
 
-3. Model Training
+- Model Training
 
 Two Logistic Regression models were trained:
 
-- Category Classification Model
+- *Category Classification Model*
 
-Input:
+**Input:**
 
 Ticket Text
 
-Output:
+**Output:**
 
 Support Queue
 
-- Priority Prediction Model
+- *Priority Prediction Model*
 
-Input:
+**Input:**
 
 Ticket Text
 
-Output:
+**Output:**
 
 High / Medium / Low Priority
 
-4. Model Evaluation
+- Model Evaluation
 
 Evaluation metrics:
 
@@ -98,7 +99,7 @@ Evaluation metrics:
 - F1 Score
 - Confusion Matrix
 
-5. Deployment
+- Deployment
 
 The trained models were saved using Joblib and deployed using Streamlit.
 
@@ -106,23 +107,23 @@ The trained models were saved using Joblib and deployed using Streamlit.
 
 - Category Classification
 
-Algorithm: Logistic Regression
+**Algorithm:** Logistic Regression
 
-Accuracy: ~51%
+**Accuracy:** ~51%
 
 - Priority Prediction
 
-Algorithm: Logistic Regression
+**Algorithm:** Logistic Regression
 
-Accuracy: ~60%
+**Accuracy:** ~60%
 
 ## 📊 Key Insights
 
-1. Technical Support Tickets Were Most Frequent
+- Technical Support Tickets Were Most Frequent
 
 Technical Support had the highest number of tickets in the dataset, indicating that customers most frequently required assistance with technical issues and system-related problems.
 
-2. Class Imbalance Was Present
+- Class Imbalance Was Present
 
 Some categories such as Technical Support and Product Support contained significantly more tickets than categories like Human Resources and General Inquiry. This imbalance affected model performance across classes.
 
@@ -130,4 +131,4 @@ Some categories such as Technical Support and Product Support contained signific
 
 Sweta Agarwal
 
-Statistics Graduate | Machine Learning Enthusiast
+MSc. Statistics Student | Machine Learning Enthusiast
