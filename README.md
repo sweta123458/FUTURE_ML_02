@@ -41,19 +41,19 @@ Customer IT Support Dataset
 **Important Columns:**
 
 |     Column	|      Description   |
-|---------------|--------------------|
-|     subject	|    Ticket title    |
-|      body	| Ticket description |
-|     queue	|   Ticket category  |
+|-------------|--------------------|
+|    subject	|    Ticket title    |
+|      body	  | Ticket description |
+|     queue	  |   Ticket category  |
 |    priority	|   Ticket priority  |
 |    language	|   Ticket language  |
-|      tags	|   Ticket keywords  |
+|      tags	  |   Ticket keywords  |
 
 Only English tickets were used for training.
 
 ## 🔄 Workflow
 
--  Data Preprocessing
+**Data Preprocessing**
 
   - Handle missing values
   - Convert text to lowercase
@@ -61,11 +61,12 @@ Only English tickets were used for training.
   - Remove stopwords
   - Lemmatize words
 
-- Feature Engineering
+**Feature Engineering**
 
 Convert text into numerical features using TF-IDF Vectorization.
 
-- Model Training
+
+**Model Training**
 
 Two Logistic Regression models were trained:
 
@@ -75,7 +76,7 @@ Two Logistic Regression models were trained:
 - *Priority Prediction Model*
 
 
-- Model Evaluation
+**Model Evaluation**
 
 Evaluation metrics:
 
@@ -85,35 +86,40 @@ Evaluation metrics:
 - F1 Score
 - Confusion Matrix
 
-- Deployment
+**Deployment**
 
 The trained models were saved using Joblib and deployed using Streamlit.
 
 ## 📊 Model Performance
 
-- Category Classification
-
-**Algorithm:** Logistic Regression
-
-**Accuracy:** ~51%
+**Category Classification**
 
 
+- Algorithm: Logistic Regression
 
-- Priority Prediction
+- Accuracy: ~51%
 
-**Algorithm:** Logistic Regression
 
-**Accuracy:** ~60%
+
+**Priority Prediction**
+
+
+- Algorithm: Logistic Regression
+
+- Accuracy: ~60%
+
 
 ## 📊 Key Insights
 
 - **Technical Support Tickets Were Most Frequent**
+  
 
 Technical Support had the highest number of tickets in the dataset, indicating that customers most frequently required assistance with technical issues and system-related problems.
 
 
 
 - **Class Imbalance Was Present**
+
 
 Some categories such as Technical Support and Product Support contained significantly more tickets than categories like Human Resources and General Inquiry. This imbalance affected model performance across classes.
 
