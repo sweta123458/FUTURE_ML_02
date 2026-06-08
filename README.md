@@ -71,23 +71,9 @@ Two Logistic Regression models were trained:
 
 - *Category Classification Model*
 
-**Input:**
-
-Ticket Text
-
-**Output:**
-
-Support Queue
 
 - *Priority Prediction Model*
 
-**Input:**
-
-Ticket Text
-
-**Output:**
-
-High / Medium / Low Priority
 
 - Model Evaluation
 
