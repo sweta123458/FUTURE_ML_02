@@ -107,13 +107,13 @@ The trained models were saved using Joblib and deployed using Streamlit.
 
 ## 📊 Key Insights
 
-- Technical Support Tickets Were Most Frequent
+- **Technical Support Tickets Were Most Frequent**
 
 Technical Support had the highest number of tickets in the dataset, indicating that customers most frequently required assistance with technical issues and system-related problems.
 
 
 
-- Class Imbalance Was Present
+- **Class Imbalance Was Present**
 
 Some categories such as Technical Support and Product Support contained significantly more tickets than categories like Human Resources and General Inquiry. This imbalance affected model performance across classes.
 
