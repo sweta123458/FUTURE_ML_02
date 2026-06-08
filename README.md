@@ -53,7 +53,7 @@ Only English tickets were used for training.
 
 ## 🔄 Workflow
 
-**Data Preprocessing**
+1.   **Data Preprocessing**
 
   - Handle missing values
   - Convert text to lowercase
@@ -61,12 +61,12 @@ Only English tickets were used for training.
   - Remove stopwords
   - Lemmatize words
 
-**Feature Engineering**
+2.   **Feature Engineering**
 
 Convert text into numerical features using TF-IDF Vectorization.
 
 
-**Model Training**
+3.   **Model Training**
 
 Two Logistic Regression models were trained:
 
@@ -76,7 +76,7 @@ Two Logistic Regression models were trained:
 - *Priority Prediction Model*
 
 
-**Model Evaluation**
+4.   **Model Evaluation**
 
 Evaluation metrics:
 
@@ -86,7 +86,7 @@ Evaluation metrics:
 - F1 Score
 - Confusion Matrix
 
-**Deployment**
+5.   **Deployment**
 
 The trained models were saved using Joblib and deployed using Streamlit.
 
