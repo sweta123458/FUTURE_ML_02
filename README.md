@@ -97,6 +97,8 @@ The trained models were saved using Joblib and deployed using Streamlit.
 
 **Accuracy:** ~51%
 
+
+
 - Priority Prediction
 
 **Algorithm:** Logistic Regression
@@ -108,6 +110,8 @@ The trained models were saved using Joblib and deployed using Streamlit.
 - Technical Support Tickets Were Most Frequent
 
 Technical Support had the highest number of tickets in the dataset, indicating that customers most frequently required assistance with technical issues and system-related problems.
+
+
 
 - Class Imbalance Was Present
 
