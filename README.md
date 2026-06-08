@@ -51,58 +51,48 @@ Customer IT Support Dataset
 
 Only English tickets were used for training.
 
-## 🔄 Workflow
+# 🔄 Workflow
 
-1.   **Data Preprocessing**
+1. Data Preprocessing
+   
+      - Converted text to lowercase
+      - Removed special characters
+      - Removed stopwords
+      - Applied lemmatization
+  
+2. Feature Engineering
+   
+   Converted text into numerical features using TF-IDF Vectorization
 
-  - Handle missing values
-  - Convert text to lowercase
-  - Remove special characters
-  - Remove stopwords
-  - Lemmatize words
-
-2.   **Feature Engineering**
-
-Convert text into numerical features using TF-IDF Vectorization.
-
-
-3.   **Model Training**
-
-Two Logistic Regression models were trained:
-
-- *Category Classification Model*
-
-
-- *Priority Prediction Model*
-
-
-4.   **Model Evaluation**
-
-Evaluation metrics:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-
-5.   **Deployment**
-
-The trained models were saved using Joblib and deployed using Streamlit.
-
+4. Model Training
+   - Category Classification Model
+   - Priority Prediction Model
+  
+  
+4. Model Evaluation
+   
+   - Accuracy
+   - Precision
+   - Recall
+   - F1 Score
+   - Confusion Matrix
+  
+6. Deployment
+   
+   - Models were saved using Joblib
+   - Application deployed using Streamlit
+  
 ## 📊 Model Performance
 
 **Category Classification**
 
-
 - Algorithm: Logistic Regression
-
+  
 - Accuracy: ~51%
 
 
 
 **Priority Prediction**
-
 
 - Algorithm: Logistic Regression
 
